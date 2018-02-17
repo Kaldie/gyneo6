@@ -20,7 +20,7 @@ struct gyneo6_info_t
   float speed_km;
   float maxSpeed_km;
   float speed_knots;
-
+  uint8_t number_of_satelites;
 };
 
 typedef struct gyneo6_info_t gyneo_info;
